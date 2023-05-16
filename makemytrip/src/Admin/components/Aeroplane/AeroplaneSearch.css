@@ -1,0 +1,136 @@
+.outer_div{
+  margin-top: 2%;
+
+}
+.first_div{
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.way_options{
+/* border: 1px solid black; */
+width: 28%;
+}
+.way_type{
+  margin-right: 5%;
+}
+.way_type input{
+  margin-right: 2%;
+}
+.location_select{
+  margin: 2%;
+  display: grid;
+  grid-template-columns:25% 25% 15% 15% 20% ;
+  border: 1px solid gray;
+  border-radius: 7px;
+  height: 20vh;
+}
+.location_opt{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding-left: 7%;
+  padding-right: 5%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+.location_opt_float{
+  background-color: white;
+  font-size: 2rem;
+  position: relative;
+  top: 30%;
+  right: 0.9rem;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background: #fff;
+  color: rgb(66, 66, 236);
+}
+.second_bold{
+  font-weight: bold;
+
+}
+.first_bold{
+  margin-top: 1.4rem;
+  margin-right:2%;
+  font-size:2rem;
+  font-weight: bolder;
+}
+@media only screen and (max-width: 600px) {
+  .first_bold{
+    font-size:1rem;
+    font-weight:normal;
+  }
+  .second_bold{
+    font-weight: normal;
+  }
+  .first_div{
+    padding-top:2rem ;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+  }
+  .location_opt_float{
+    z-index: -1;
+}
+
+}
+.last_opts{
+
+  display:flex;
+  justify-content: space-between;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+.first_div_last{
+
+  display: flex;
+  gap: 0.5rem;
+  grid-template-columns: repeat(6,1fr);
+  font-size: 0.8rem;
+}
+.second_div_last{
+
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(3,1fr);
+  font-size: 0.8rem;
+}
+
+label {
+  float: left;
+  clear: none;
+  display: block;
+  padding-top: 7px;
+}
+
+input[type=radio]{
+  float: left;
+  clear: none;
+  margin: 2px 0 0 2px;
+}
+@media only screen and (max-width: 600px) {
+  .last_opts{
+
+    display:block;
+  }
+  .first_div_last{
+   margin-bottom: 0.5rem;
+  }
+}
+.src_btn{
+    background-color: #1565C0;
+
+    border: none;
+    color: white;
+    padding: 0.4rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    border-radius: 14px;
+
+    left: 45%;
+    margin-left: 10px;
+    margin-top:1vh;
+}
+

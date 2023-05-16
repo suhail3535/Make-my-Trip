@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@600&family=Poppins&family=Quicksand&display=swap");
+
+#card1 {
+    width: 375px;
+    height: 239px;
+
+    border-radius: 15px;
+    background-image: url("https://cardinfo.in/assets/images/sbi-platinum-debit-card.jpg");
+    background-size: cover;
+
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#div {
+    line-height: 0px;
+    margin-left: 32%;
+    margin-top: 21%;
+    font-size: 21px;
+    color: #fff;
+    font-family: poppins;
+    line-height: 33px;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    width: 57%;
+    margin: 40px auto;
+    height: auto;
+    border: 0px solid yellow;
+    justify-content: space-between;
+
+    padding: 3%;
+
+    background: linear-gradient(to right, #d1cae9, #86c0e6);
+
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+#form {
+    line-height: 35px;
+    width: 40%;
+    padding: 20px;
+    border: 0px solid red;
+}
+#form input {
+    width: 90%;
+
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-color: #fff;
+    font-family: poppins;
+}
+
+.label {
+    display: block;
+    border: 0px solid blue;
+    margin-bottom: 1%;
+    margin-left: 15px;
+
+    font-family: montserrat;
+    color: #fff;
+}
+
+#heading {
+    margin-top: 30px;
+    width: 57%;
+    text-align: center;
+    margin: 20px auto;
+    border: 0px solid green;
+}
+
+#button {
+    width: 80%;
+    padding: 5px;
+    border: none;
+    margin-top: 2%;
+
+    border-radius: 5px;
+    background-color: #f4511e;
+    color: white;
+    cursor: pointer;
+    font-family: poppins;
+    font-size: medium;
+    transition: transform 0.2s;
+}
+
+#button:hover {
+    background-color: #addd00;
+    transform: scale(1.1);
+    font-family: poppins;
+    font-size: medium;
+}

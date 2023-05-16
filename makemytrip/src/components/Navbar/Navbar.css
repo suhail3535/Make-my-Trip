@@ -1,0 +1,40 @@
+.wrapper {
+    position: relative;
+    background-color: #144073;
+    background: linear-gradient(#061526, #144073);
+    height: 30rem;
+    border: 0px solid yellow;
+}
+
+.first-box {
+    background-color: white;
+    width: 63%;
+    height: 90px;
+    position: relative;
+    top: 10%;
+    left: 11%;
+    border-radius: 10px;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 40%);
+    background: #fff;
+    color: rgb(0, 0, 9);
+    margin-left: 8%;
+}
+.second-box {
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 40%);
+    background: #fff;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+@media only screen and (max-width: 600px) {
+    .second-box {
+        height: 85%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .second-box {
+        height: 75%;
+    }
+}
